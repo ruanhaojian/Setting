@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		929A2E271CF9A8D4008B1C6C /* FeedbackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 929A2E261CF9A8D4008B1C6C /* FeedbackVC.m */; };
 		F80F1DFB1CF6AA690021EE50 /* SettingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F80F1DFA1CF6AA690021EE50 /* SettingUtils.m */; };
 		F80F1DFD1CF6D3D90021EE50 /* Setting.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80F1DFC1CF6D3D90021EE50 /* Setting.xcassets */; };
 		F8D1ECD71CF5ACBD00C0328F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D1ECD61CF5ACBD00C0328F /* main.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		929A2E251CF9A8D4008B1C6C /* FeedbackVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackVC.h; sourceTree = "<group>"; };
+		929A2E261CF9A8D4008B1C6C /* FeedbackVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackVC.m; sourceTree = "<group>"; };
 		F80F1DF91CF6AA690021EE50 /* SettingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingUtils.h; sourceTree = "<group>"; };
 		F80F1DFA1CF6AA690021EE50 /* SettingUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingUtils.m; sourceTree = "<group>"; };
 		F80F1DFC1CF6D3D90021EE50 /* Setting.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Setting.xcassets; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 				F80F1DF91CF6AA690021EE50 /* SettingUtils.h */,
 				F80F1DFA1CF6AA690021EE50 /* SettingUtils.m */,
 				F80F1DFC1CF6D3D90021EE50 /* Setting.xcassets */,
+				929A2E251CF9A8D4008B1C6C /* FeedbackVC.h */,
+				929A2E261CF9A8D4008B1C6C /* FeedbackVC.m */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8D1ECDD1CF5ACBD00C0328F /* ViewController.m in Sources */,
+				929A2E271CF9A8D4008B1C6C /* FeedbackVC.m in Sources */,
 				F8D1ECF11CF5ADDA00C0328F /* SettingVC.m in Sources */,
 				F8D1ECDA1CF5ACBD00C0328F /* AppDelegate.m in Sources */,
 				F8D1ECD71CF5ACBD00C0328F /* main.m in Sources */,
